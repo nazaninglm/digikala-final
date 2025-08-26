@@ -1,0 +1,52 @@
+.division {
+  width: 100%;
+  height: 410px;
+  padding-top: 25px;
+  .division-center {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    .division-center-top {
+      width: 100%;
+      height: 54px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h3 {
+        font-size: 28px;
+        font-family: var(--font);
+        font-weight: bold;
+      }
+    }
+    .division-center-bottom {
+      width: 100%;
+      height: 178px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        span {
+          font-family: var(--font);
+          font-size: 12px;
+          margin-top: 8px;
+        }
+      }
+      .swiper-slide img {
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        cursor: pointer;
+      }
+    }
+  }
+}

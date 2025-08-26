@@ -1,0 +1,103 @@
+.header-gold {
+  width: 100%;
+  height: 372px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  .header-gold-top {
+    width: 100%;
+    height: 72px;
+    background-color: #ffd08f;
+    padding: 12px 16px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    .header-gold-top-center {
+      width: 90%;
+      height: 100%;
+      display: flex;
+      margin-left: auto;
+      margin-right: auto;
+      /* box-sizing: border-box; */
+      justify-content: space-between;
+      .header-gold-top-center-right {
+        width: 242.8px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+        img {
+          width: 32px;
+          height: 32px;
+        }
+        .header-gold-top-center-right-span-bold {
+          font-family: var(--font);
+          font-size: 21px;
+          font-weight: 800;
+          color: rgb(1, 73, 75);
+          line-height: 26.25px;
+          box-sizing: border-box;
+        }
+        .header-gold-top-center-right-span-digi {
+          font-family: var(--font);
+          font-size: 21px;
+          font-weight: 500;
+          color: rgb(1, 73, 75);
+          line-height: 26.25px;
+          box-sizing: border-box;
+        }
+      }
+      .header-gold-top-center-left {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 146.79px;
+        height: 48px;
+        padding: 12px 16px;
+        border: 0.8px solid rgb(1, 73, 75);
+        background-color: rgb(1, 73, 75);
+        outline: none;
+        border-radius: 8px;
+        div {
+          width: 113.19px;
+          height: 30.1px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          box-sizing: border-box;
+          color: white;
+          text-align: center;
+          line-height: 30.1px;
+          font-family: var(--font);
+        }
+      }
+    }
+  }
+  .header-gold-bottom {
+    width: 100%;
+    height: 300px;
+    background-color: rgb(1, 73, 75);
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header-gold-bottom-center {
+      width: 100%;
+      height: 223.6px;
+      box-sizing: border-box;
+      margin: 0 79.6px;
+      display: flex;
+      flex-flow: column wrap;
+      .header-gold-bottom-center-top{
+        width: 410px;
+        height: 159.6px;
+      }
+      
+    }
+  }
+}
